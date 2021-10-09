@@ -1,0 +1,22 @@
+
+general:
+  prefix: '&7[&b&lArtemis&7]'
+  packet-listening-type: 'CUSTOM' # CUSTOM ONLY CURRENTLY
+  bungeecord: false
+  debugger: true
+  theme: "artemis.yml" # COMING SOON
+message:
+  verbose: '&b%player% &cis flagging &b%check% &7(&b%type%&7) &7[&b%violation%&7]'
+  violation: '&b%player%&7 is using &b%check% &7(&b%type%&7) &7[&b%violation%&7]'
+  evaluator: '&b%player%&7 is hacking (&cProbability&7:&b %evaluator%&7)'
+  ban: '&7[&b&lArtemis&7] &cUnfair Advantage'
+  banwave: '&b%player%&7 has been added to the &bBan Wave'
+  no-permission: '&4No permissions'
+  invalid-player: '%prefix% &cInvalid player!'
+  invalid-check: '%prefix% &cInvalid check!'
+  alerts-toggled: '%prefix% &cToggled alerts %mode%'
+  verbose-toggled: '%prefix% &cToggled verbose %mode%'
+
+ban:
+  command: 'kick %player% &7[&bArtemis&7] &bUnfair Advantage'
+  type: 'autoban' # CAN BE EITHER 'banwave', 'autoban' or 'none'

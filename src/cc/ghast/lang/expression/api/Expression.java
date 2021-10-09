@@ -1,0 +1,22 @@
+/*
+ * Decompiled with CFR 0.148.
+ */
+package cc.ghast.lang.expression.api;
+
+import cc.ghast.lang.expression.api.ClassType;
+import java.lang.annotation.Annotation;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(value=RetentionPolicy.RUNTIME)
+@Target(value={ElementType.TYPE})
+public @interface Expression {
+    public String name();
+
+    public String[] use();
+
+    public ClassType type();
+}
+

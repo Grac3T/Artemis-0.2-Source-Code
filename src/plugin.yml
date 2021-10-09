@@ -1,0 +1,12 @@
+main: cc.ghast.artemis.v2.ArtemisPlugin
+author: Ghast
+description: 'Unique security plugin against cheater'
+name: Artemis
+version: ${project.version}
+commands:
+  artemis:
+    description: 'Open the main lock GUI to find all aliases'
+  debug:
+    description: 'Debug option for DEV'
+  test:
+    description: 'test'
